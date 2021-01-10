@@ -31,6 +31,10 @@ body{
     font-size: 50px;
 }
 
+.circle > img {
+    width: 5vw;
+    height: 5vw;
+}
 .block > p {
     color: white;
 }

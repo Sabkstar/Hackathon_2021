@@ -1,3 +1,5 @@
+import avatarImage from "../assets/avatar.png"
+import settingImage from "../assets/setting.png"
 import React from "react";
 
 export default function LeftNavBar(props){
@@ -5,6 +7,7 @@ export default function LeftNavBar(props){
         <div className = "left-nav-bar">
             <div className = "block">
                 <div className = "circle">
+                    <img src={avatarImage} alt = "avatar"/>
                 </div>
                 <p>Me</p>
             </div>
@@ -16,6 +19,7 @@ export default function LeftNavBar(props){
             </div>
             <div className = "block">
                 <div className = "circle">
+                    <img src = {settingImage} alt = "setting"/>
                 </div>  
                 <p>Settings</p>
             </div>
